@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Converter</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="menu-bar">
+            <p>Type of conversion</p>
+            <img src="menu_nav.png" alt="nav icon" />
+        </div>
+        <div class="menu-panel">
+            <ul>
+                <li id="dtob">Decimal to Binary</li>
+                <li id="btod">Binary to Decimal</li>
+                <li id="dtoh">Decimal to Hexadecimal</li>
+                <li id="htod">Hexadecimal to Decimal</li>
+            </ul>
+        </div>
+        <div class="input-panel">
+            <p class="title">Conversion from decimal to binary</p>
+            <label for="input-tb">Number: </label>
+            <input type="text" id="input-tb" placeholder="decimal number ..." />
+            <button type="button" id="convert-btn">Convert</button>
+        </div>
+        <div class="result-panel">
+            <p class="info-1"></p>
+            <p class="info-2"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
