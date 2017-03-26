@@ -32,6 +32,7 @@
     background-color: dodgerblue;
     border-radius: 4px;
     color: white;
+    box-shadow: 2px 2px 2px grey;
 
     position: absolute;
     top: 42px;
@@ -54,7 +55,7 @@
     cursor: pointer;
 }
 
-.menu-panel > ul >li:first-child {
+.menu-panel > ul > li:first-child {
     border-top: 1px solid white;
 }
 
@@ -91,6 +92,7 @@
     padding: 3px 8px;
     margin-left: 4px;
     border-radius: 2px;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .result-panel {
