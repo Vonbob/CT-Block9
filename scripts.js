@@ -13,11 +13,10 @@
             return result.toString().replace(/,/g, "");
         },
         formatResult: function (input, result) {
-            var formattedResult = {
+            return {
                 original: "Decimal: " + input,
                 converted: "Binary: " + result
             };
-            return formattedResult;
         },
         validateInput: function (input) {
             if (!input || isNaN(input)) {
@@ -43,11 +42,10 @@
             return number.toString();
         },
         formatResult: function (input, result) {
-            var formattedResult = {
+            return {
                 original: "Binary: " + input,
                 converted: "Decimal: " + result
             };
-            return formattedResult;
         },
         validateInput: function (input) {
             var i;
@@ -101,11 +99,10 @@
             return result.toString().replace(/,/g, "");
         },
         formatResult: function (input, result) {
-            var formattedResult = {
+            return {
                 original: "Decimal: " + input,
                 converted: "Hexadecimal: " + result
             };
-            return formattedResult;
         },
         validateInput: function (input) {
             if (!input || isNaN(input)) {
@@ -159,11 +156,10 @@
             return number;
         },
         formatResult: function (input, result) {
-            var formattedResult = {
+            return {
                 original: "Hexadecimal: " + input,
                 converted: "Decimal: " + result
             };
-            return formattedResult;
         },
         validateInput: function (input) {
             if (!input) {
